@@ -1,0 +1,2 @@
+Anfisa-bot/
+*.pdf

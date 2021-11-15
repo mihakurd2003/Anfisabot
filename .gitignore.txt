@@ -1,2 +1,2 @@
-Anfisa-bot/
+/Anfisa-bot/
 *.pdf

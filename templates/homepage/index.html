@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+  </head>
+  <body>
+      <h1>Анфиса для друзей</h1>
+       <img src="https://code.s3.yandex.net/backend-developer/Anfisa/24.png">
+       <br>
+      <p>
+        {{ friend_output }}
+      </p>
+      <p>
+        {{ city_weather }}
+      </p>     
+      <p>
+        {{ conclusion }}
+      </p>
+      <form action="/" method="post">
+        <h2>Выберите друга</h2>
+          {{ friends|safe }}
+        <h2>Выберите мороженое</h2>
+          {{ icecreams|safe }}
+        <br>
+        <input type="submit" value="Угостить">
+      </form>
+
+  </body>
+</html>
